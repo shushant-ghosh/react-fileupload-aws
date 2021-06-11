@@ -1,0 +1,14 @@
+There must be a S3 bucket already created with name "bucket-edixel".
+
+This app can upload files to a preexisting bucket but cannot create a bucket itself.
+
+The application can only accept .mp4,  file format curently, can be modified in future
+
+A .env file needs to be created with the following details:
+REACT_APP_ACCESS_ID=<provide your Access ID>
+REACT_APP_ACCESS_KEY=<provide your Access Key>
+REACT_APP_BUCKET_NAME=bucket-edixel
+REACT_APP_DIR_NAME=Videos
+REACT_APP_REGION=<provide your Region>
+REACT_APP_CONTENT_TYPE=".mp4"
+
